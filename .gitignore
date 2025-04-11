@@ -1,0 +1,44 @@
+
+## 🛠️ Tech Stack
+
+- **Backend:** Java, Spring Boot, Kafka, Redis, MongoDB
+- **AI:** Python, LangChain, HuggingFace, OpenAI
+- **Infrastructure:** AWS (EKS, S3, Route 53, etc.), Jenkins, Docker
+- **Observability:** Prometheus, Grafana
+
+## 🔍 Status
+
+Project initiation ✅  
+Architecture finalized ✅  
+Development in progress 🚧
+
+---
+
+### ✅ `.gitignore` (Java + Python + Docker friendly)
+
+```gitignore
+# Java
+target/
+*.class
+*.jar
+*.war
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# General
+.idea/
+.DS_Store
+*.swp
+.vscode/
+secrets.json
+.env.*
